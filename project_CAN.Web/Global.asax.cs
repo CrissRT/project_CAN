@@ -16,6 +16,7 @@ namespace project_CAN.Web
             // Code that runs on application startup
            AreaRegistration.RegisterAllAreas();
            RouteConfig.RegisterRoutes(RouteTable.Routes);
+           BundleConfig.RegisterBundles(System.Web.Optimization.BundleTable.Bundles);
         }
     }
 }
