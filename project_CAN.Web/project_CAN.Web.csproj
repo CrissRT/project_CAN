@@ -114,6 +114,7 @@
     <Content Include="Content\metisMenu.css" />
     <Content Include="Content\pe-icon-7-stroke.css" />
     <Content Include="Content\style.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\Pe-icon-7-stroke.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap\dist\css\bootstrap-theme.css" />
@@ -1232,6 +1233,11 @@
     <Content Include="fonts\Pe-icon-7-stroke.eot" />
     <Content Include="fonts\Pe-icon-7-stroke.ttf" />
     <Content Include="fonts\Pe-icon-7-stroke.woff" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_Header.cshtml" />
     <Content Include="Views\Shared\_LayoutPage.cshtml" />
