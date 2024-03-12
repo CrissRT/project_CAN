@@ -15,13 +15,14 @@
     @Scripts.Render("~/bundles/bootstrap")
     @Styles.Render("~/Content/css")
 </head>
-<body class="fixed-navbar sidebar-scroll">
+<body class="mainPage">
     <!-- Header -->
     @Html.Partial("_Header")
 
     <!-- Navigation -->
-    @Html.Partial("_Navigation")
+    @*@Html.Partial("_Navigation")*@
     <!-- Content Page -->
+
     @RenderBody()
 </body>
 </html>

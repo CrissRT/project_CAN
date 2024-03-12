@@ -107,13 +107,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\animate.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\font-awesome.css" />
-    <Content Include="Content\helper.css" />
-    <Content Include="Content\metisMenu.css" />
-    <Content Include="Content\pe-icon-7-stroke.css" />
-    <Content Include="Content\style.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\Pe-icon-7-stroke.svg" />
     <Content Include="Global.asax" />
@@ -1223,6 +1218,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1339,6 +1335,7 @@
     <Content Include="Scripts\slimScroll\README.md" />
     <Content Include="Scripts\slimScroll\slimScroll.jquery.json" />
     <Content Include="Scripts\sparkline\.bower.json" />
+    <Content Include="Views\Login\Login.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

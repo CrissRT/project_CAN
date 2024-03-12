@@ -2654,6 +2654,11 @@ input[type="search"] {
   margin-top: 4px \9;
   margin-left: -20px;
 }
+
+.i-checks{
+    position: relative;
+    margin-left: 0;
+}
 .radio + .radio,
 .checkbox + .checkbox {
   margin-top: -5px;
