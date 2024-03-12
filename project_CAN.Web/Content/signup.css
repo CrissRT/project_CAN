@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainPage{
+    background-color: #999999;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registerBlock{
+    background-color: #D9D9D9;
+    width: 800px;
+    height: fit-content;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.registerTitle{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+.registerTitle > h1{
+    font-size: 50px;
+}
+.registerContent{
+
+    width: 60%;
+    height: fit-content;
+    margin-bottom: 30px;
+}
+.textLine{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+.textLine > p{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+.infoLine{
+    background-color: transparent;
+    border: solid;
+    border-color: black;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.ButtonLogin{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.btn-secondary{
+    width: 200px;
+    height: 70px;
+}

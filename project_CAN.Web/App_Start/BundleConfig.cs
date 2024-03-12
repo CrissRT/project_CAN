@@ -23,9 +23,18 @@ namespace project_CAN
             bundles.Add(new Bundle("~/bundles/bootstrap").Include("~/Scripts/bootstrap/dist/js/bootstrap.min.js"));
 
             // CSS Bundles
-            bundles.Add(new StyleBundle("~/Content/css").Include(
+            bundles.Add(new StyleBundle("~/Content/css/bootstrap").Include(
                      "~/Content/index.css", "~/Content/bootstrap.min.css",
                      "~/Content/bootstrap-icons-1.11.3/font/bootstrap-icons.css"));
+            bundles.Add(new StyleBundle("~/Content/css/homePage").Include(
+                     "~/Content/index.css"));
+
+            bundles.Add(new StyleBundle("~/Content/css/signUp").Include(
+                     "~/Content/signup.css"));
+
+            bundles.Add(new StyleBundle("~/Content/css/login").Include(
+                     "~/Content/login.css"));
+
         }
     }
 }
