@@ -1,0 +1,49 @@
+/* barstiles */
+.head {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    border: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 25px;
+}
+.bi-house-fill{
+    font-size: 40px;
+}
+/* searchstiles */
+.searchBar {
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 5px;
+}
+
+.bi-search {
+    font-size: 30px;
+    margin-right: 12px;
+}
+/* searchstiles */
+
+.bi-postcard-heart {
+    font-size: 40px;
+}
+
+.bi-person-circle {
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+
+/* barstiles */
+
+

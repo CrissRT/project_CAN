@@ -2163,13 +2163,19 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.css" />
-    <Content Include="Content\index.css" />
-    <Content Include="Content\login.css" />
-    <Content Include="Content\signup.css" />
+    <Content Include="Content\UserStyles\Index.css" />
+    <Content Include="Content\UserStyles\Header.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\Pe-icon-7-stroke.svg" />
     <Content Include="Global.asax" />
-    <Content Include="images\Rectangle 1.png" />
+    <Content Include="images\aim.png" />
+    <Content Include="images\backGround.svg" />
+    <Content Include="images\contentBackGround.svg" />
+    <Content Include="images\loginBackGround.svg" />
+    <Content Include="images\logoBackGround.svg" />
+    <Content Include="images\logoimages.svg" />
+    <Content Include="images\movement.png" />
+    <Content Include="images\shutin.png" />
     <Content Include="Scripts\bootstrap\dist\css\bootstrap-theme.css" />
     <Content Include="Scripts\bootstrap\dist\css\bootstrap-theme.min.css" />
     <Content Include="Scripts\bootstrap\dist\css\bootstrap.css" />
@@ -3276,8 +3282,6 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\LoginController.cs" />
-    <Compile Include="Controllers\SignUpController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -3300,9 +3304,8 @@
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="images\.DS_Store" />
     <None Include="packages.config" />
-    <Content Include="Views\Shared\_Header.cshtml" />
-    <Content Include="Views\Shared\_LayoutPage.cshtml" />
-    <Content Include="Views\Shared\_Navigation.cshtml" />
+    <Content Include="Views\Shared\_HeaderUser.cshtml" />
+    <Content Include="Views\Shared\_LayoutPageUser.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\bootstrap\.bower.json" />
     <Content Include="Scripts\bootstrap\dist\css\bootstrap-theme.css.map" />
@@ -3400,8 +3403,6 @@
     <Content Include="Scripts\slimScroll\README.md" />
     <Content Include="Scripts\slimScroll\slimScroll.jquery.json" />
     <Content Include="Scripts\sparkline\.bower.json" />
-    <Content Include="Views\Login\Login.cshtml" />
-    <Content Include="Views\SignUp\SignUp.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -3411,6 +3412,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\AdminStyles\" />
+    <Folder Include="Content\ModeratorStyles\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

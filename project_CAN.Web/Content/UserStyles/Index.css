@@ -1,0 +1,116 @@
+.mainPage {
+    background-image: url(../../images/backGround.svg);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+.mainPageContent {
+    width: 100%;
+    height: 90%;
+}
+
+
+.logo {
+    background-image: url(../../images/logoBackGround.svg);
+    display: flex;
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+/* maincourses */
+.esentialCourses {
+    background-image: url(../../images/contentBackGround.svg);
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.esentialText {
+    width: 35%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.esentialTextBlock {
+    background-color: #272a3b;
+    padding: 10px;
+    margin-top: -120px;
+    box-shadow: 5px 6px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+    .esentialTextBlock > h1 {
+        font-size: 37px;
+        color: white;
+    }
+
+    .esentialTextBlock > p {
+        color: gray;
+        font-size: 20px;
+    }
+
+.MainCourses {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.freeCours {
+    background-image: url(../../images/backGround.svg);
+    width: 320px;
+    height: 520px;
+    border-radius: 20px;
+    margin: 0 10px;
+    overflow: hidden;
+    box-shadow: 5px 6px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+    .freeCours > img {
+        width: 100%;
+        height: 50%;
+    }
+
+.freeCoursTextButton {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.btn-lg {
+    margin-bottom: 20px;
+}
+
+.icon-container {
+    display: inline-block;
+}
+
+.icon {
+    font-size: 42px;
+    margin-left: 25px;
+    transition: all 0.1s ease;
+}
+
+.icon-container:active .icon {
+    color: red;
+}
+
+/* maincourses */
