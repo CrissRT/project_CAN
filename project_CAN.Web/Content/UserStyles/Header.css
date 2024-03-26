@@ -12,9 +12,12 @@
     border-left: none;
     padding: 25px;
 }
-.bi-house-fill{
+
+   
+.bi-house-fill {
     font-size: 40px;
 }
+
 /* searchstiles */
 .searchBar {
     background-color: white;

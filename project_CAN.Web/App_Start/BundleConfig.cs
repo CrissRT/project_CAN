@@ -26,8 +26,12 @@ namespace project_CAN
             bundles.Add(new StyleBundle("~/Content/css/bootstrap").Include(
                      "~/Content/index.css", "~/Content/bootstrap.min.css",
                      "~/Content/bootstrap-icons-1.11.3/font/bootstrap-icons.css"));
+
             bundles.Add(new StyleBundle("~/Content/css/homePage").Include(
                      "~/Content/UserStyles/Index.css", "~/Content/UserStyles/Header.css"));
+
+            bundles.Add(new StyleBundle("~/Content/css/profile").Include(
+                "~/Content/UserStyles/Profile.css"));
 
         }
     }

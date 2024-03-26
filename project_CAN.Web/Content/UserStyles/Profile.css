@@ -1,0 +1,144 @@
+﻿.profileBlock{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.profileImg {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    box-shadow: 5px 6px 30px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+    position: relative;
+    z-index: 2;
+}
+.profileImg > img{
+    width: 300px;
+    height: 300px;
+}
+
+
+.profileContent {
+    background-color: white;
+    width: 500px;
+    height: fit-content;
+    border-radius: 20px;
+    margin-top: -150px;
+    position: relative;
+    z-index: 1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:20px;
+}
+
+.profileName{
+    margin-top:110px;
+}
+.profileName > h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.profileTutorLikes{
+    background-color:white;
+    width:100%;
+    height:120px;
+    display:flex;
+    flex-direction:column;
+    margin-bottom:15px
+}
+.profileTutorLikes > p{
+    margin-bottom:5px;
+    margin-left:15px;
+    font-size:20px;
+}
+
+.profileLineSetings {
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.profileGeneralSettings {
+    background-color: white;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px
+}
+.profileGeneralSettings > p {
+    margin-bottom: 5px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+
+
+.contats {
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contats > p {
+    margin-bottom: 5px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.social {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.socialLine {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.bi-instagram {
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+.bi-facebook {
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+.bi-telegram {
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+.socialLine > a {
+    width: 150px;
+}
