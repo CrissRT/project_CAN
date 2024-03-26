@@ -33,6 +33,11 @@ namespace project_CAN
             bundles.Add(new StyleBundle("~/Content/css/profile").Include(
                 "~/Content/UserStyles/Profile.css"));
 
+            bundles.Add(new StyleBundle("~/Content/css/login").Include(
+                "~/Content/UserStyles/Login.css"));
+
+            bundles.Add(new StyleBundle("~/Content/css/signup").Include(
+                "~/Content/UserStyles/Singup.css"));
         }
     }
 }

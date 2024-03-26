@@ -1,0 +1,83 @@
+.singupPage{
+    background-image: url(../../images/loginBackGround.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1.2;
+    /* width: 100%; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.singupContent{
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 20px;
+    box-shadow: 5px 6px 30px 0px rgba(0, 0, 0, 0.15);
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.login{
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+.login > p {
+    font-size: 20px;
+    color: gray;
+    margin: 0;
+}
+.E-mail{
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+.E-mail > p{
+    font-size: 20px;
+    color: gray;
+    margin: 0;
+}
+.parola{
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+.parola > p {
+    font-size: 20px;
+    color: gray;
+    margin: 0;
+}
+
+#repeat-parola > p {
+    width: 55%;
+}
+.btn-lg{
+    margin-top: 20px;
+}
+
+form input {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: none;
+    outline: none;
+}

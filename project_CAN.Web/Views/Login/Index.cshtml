@@ -1,0 +1,32 @@
+﻿@using System.Web.Optimization
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="login.css">
+        @Scripts.Render("~/bundles/bootstrap")
+        @Styles.Render("~/Content/css/bootstrap")
+        @Styles.Render("~/Content/css/login")
+
+    </head>
+
+    <body class="loginPage">
+        <div class="loginContent">
+            <h1>Logare</h1>
+            <form action="" name="login" method="post">
+                <div class="login-wrapper">
+                    <p>Login:</p>
+                    <input type="text" name="login" required>
+                </div>
+                <div class="parola-wrapper">
+                    <p>Parola:</p>
+                    <input type="password" name="parola" required>
+                </div>
+                <input type="submit" value="Logare" class="btn btn-secondary btn-lg" />
+            </form>
+        </div>
+    </body>
+</html>

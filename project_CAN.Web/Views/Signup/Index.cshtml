@@ -1,0 +1,40 @@
+﻿@using System.Web.Optimization
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        @Scripts.Render("~/bundles/bootstrap")
+        @Styles.Render("~/Content/css/bootstrap")
+        @Styles.Render("~/Content/css/signup")
+    </head>
+
+    <body class="singupPage">
+        <div class="singupContent">
+            <h1>Înregistrare</h1>
+            <form action="" method="post">
+                <div class="login">
+                    <p>Login:</p>
+                    <input type="text" name="login" required>
+                </div>
+                <div class="E-mail">
+                    <p>Email:</p>
+                    <input type="email" name="email" required>
+                </div>
+
+                <div class="parola">
+                    <p>Parola:</p>
+                    <input type="password" name="parola" required>
+                </div>
+
+                <div class="parola" id="repeat-parola">
+                    <p>Repeta parola:</p>
+                    <input type="password" name="parola" required>
+                </div>
+                <input type="submit" value="Înregestreaza" class="btn btn-secondary btn-lg" />
+            </form>
+        </div>
+    </body>
+</html>
