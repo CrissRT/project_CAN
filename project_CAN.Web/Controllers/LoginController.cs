@@ -13,5 +13,6 @@ namespace project_CAN.Web.Controllers
         {
             return View();
         }
+
     }
 }

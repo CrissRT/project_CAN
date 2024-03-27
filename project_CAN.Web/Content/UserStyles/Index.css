@@ -9,9 +9,6 @@
     align-items: start;
 }
 
-
-
-
 .mainPageContent {
     width: 100%;
     height: 90%;
@@ -57,18 +54,18 @@
     margin-right: 50px;
 }
 
-.esentialTextBlock > h1 {
-    width: 550px;
-    font-size: 37px;
-    color: white;
-    margin: 0;
-}
+    .esentialTextBlock > h1 {
+        width: 550px;
+        font-size: 37px;
+        color: white;
+        margin: 0;
+    }
 
-.esentialTextBlock > p {
-    color: gray;
-    font-size: 20px;
-    margin: 0;
-}
+    .esentialTextBlock > p {
+        color: gray;
+        font-size: 20px;
+        margin: 0;
+    }
 
 .freeCours {
     background-image: url(../../images/backGround.svg);
@@ -80,10 +77,10 @@
     box-shadow: 5px 6px 30px 0px rgba(0, 0, 0, 0.15);
 }
 
-.freeCours > img {
-    width: 100%;
-    height: 50%;
-}
+    .freeCours > img {
+        width: 100%;
+        height: 50%;
+    }
 
 .freeCoursTextButton {
     width: 100%;

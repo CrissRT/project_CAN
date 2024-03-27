@@ -1,4 +1,5 @@
-﻿using System;
+﻿using project_CAN.Web.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,13 @@ namespace project_CAN.Web.Controllers
         public ActionResult Index()
         {
             return View();
+        }
+
+        public ActionResult Signup(UserLogin loginData)
+        {
+            
+
+            return View(loginData);
         }
     }
 }

@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace project_CAN.Domain.Entities.User
 {
-    public class ULoginData
+    public class ULoginResp
     {
-        public string Username { get; set; }
-        public string Password { get; set; }
-        public DateTime LoginDateTime { get; set; }
+        public bool Status { get; set; }
+        public string StatusMsg { get; set; }
     }
 }

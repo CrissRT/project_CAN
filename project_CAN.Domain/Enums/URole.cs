@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace project_CAN.BusinessLogic.Core
+namespace project_CAN.Domain.Enums
 {
-    class AdminApi
+    public enum URole
     {
+        User,
+        Moderator,
+        Admin
     }
 }
