@@ -3295,6 +3295,7 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\ProfileController.cs" />
@@ -3305,6 +3306,7 @@
     </Compile>
     <Compile Include="Models\UserLogin.cs" />
     <Compile Include="Models\UserData.cs" />
+    <Compile Include="Models\UserRegistration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -3424,8 +3426,8 @@
     <Content Include="Scripts\slimScroll\slimScroll.jquery.json" />
     <Content Include="Scripts\sparkline\.bower.json" />
     <Content Include="Views\Profile\Index.cshtml" />
-    <Content Include="Views\Login\Index.cshtml" />
     <Content Include="Views\Signup\Index.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
