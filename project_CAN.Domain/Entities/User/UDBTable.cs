@@ -2,6 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using project_CAN.Domain.Enums;
+using project_CAN.Domain.Enums;
 
 namespace project_CAN.Domain.Entities.User
 {
@@ -20,6 +21,11 @@ namespace project_CAN.Domain.Entities.User
         [Display(Name = "Password")]
         [StringLength(50, MinimumLength = 8, ErrorMessage = "Password cannot be shorter than 8 characters.")]
         public string Password { get; set; }
+
+        [Required]
+        [Display(Name = "Email Address")]
+        [StringLength(30)]
+        public string Email { get; set; }
 
         [DataType(DataType.Date)]
         public DateTime LastLogin { get; set; }
